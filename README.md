@@ -16,7 +16,5 @@ With this exercise I trained my fundamentals knowledge of React with Typescript,
 Part of the chalenge was to recreate the layout provided by the Rocketseat team.
 Below, a comparison of the layout provided (left) and mine (right).
 
-<img src="https://prnt.sc/LL7FSj3VaWmS" alt="Rocketseat's empty list layout" width="200"/> <img src="https://prnt.sc/nfDRBT-b9-5H" alt="bMoki's empty list layout" width="200"/>
-
-
+![Rocketseat's empty list layout](https://prnt.sc/LL7FSj3VaWmS =250x) | ![bMoki's empty list layout](https://prnt.sc/nfDRBT-b9-5H =250x)
 
