@@ -1,0 +1,15 @@
+.empty {
+    border-top: 2px solid var(--gray-500);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15.25rem;
+    flex-direction: column;
+    
+}
+
+.empty strong {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}

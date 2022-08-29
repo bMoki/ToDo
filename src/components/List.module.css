@@ -1,0 +1,40 @@
+.list {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.list header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.listSpan {
+    padding: 0.1rem 0.5rem;
+    background: var(--gray-400);
+    font-weight: bold;
+    color: var(--gray-200);
+    border-radius: 12px;
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+}
+
+
+
+.criadas strong {
+    color: var(--blue-200);
+}
+
+.concluidas strong {
+    color: var(--purple-300);
+}
+
+.tarefas {
+    width: 100%;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 15.25rem;
+}
+

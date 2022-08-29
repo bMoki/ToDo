@@ -1,0 +1,39 @@
+.tarefa {
+    border: 1px solid var(--gray-400);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 4.5rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    margin-top: 0.8rem;
+}
+
+
+.trash {
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    margin: 1rem;
+    line-height: 0;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.trash:hover {
+    background: var(--gray-400);
+    color: var(--red);
+}
+
+.taskContent {
+    width: 100%;
+    margin-top: 1rem;
+    color: var(--gray-100);
+    font-weight: 400;
+}
+
+.taskContent del {
+    color: var(--gray-300);
+}
+
