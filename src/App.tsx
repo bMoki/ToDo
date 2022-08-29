@@ -41,7 +41,8 @@ function App() {
   }
 
   function handleNewTask(newTask: TaskType) {
-    setTasks([...tasks, newTask]);
+    uncheckedTasks.push(newTask);
+    setTasks([...uncheckedTasks,...checkedTasks]);
   }
 
   function handleDeleteTask(deletedTask: TaskType) {
