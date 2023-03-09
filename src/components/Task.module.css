@@ -3,10 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 4.5rem;
+    height: 4rem;
     background: var(--gray-500);
     border-radius: 8px;
     margin-top: 0.8rem;
+
+    align-items:center;
 }
 
 
@@ -28,9 +30,10 @@
 
 .taskContent {
     width: 100%;
-    margin-top: 1rem;
+    //margin-top: 1rem;
     color: var(--gray-100);
     font-weight: 400;
+    align-items: center;
 }
 
 .taskContent del {
